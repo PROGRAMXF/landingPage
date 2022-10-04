@@ -1,3 +1,10 @@
+/*fuentes importadas*/
+
+@font-face{
+  font-family: "Lora";
+  src: url(/fuentes/Lora-Italic-VariableFont_wght.ttf);
+}
+
 /* ---- reset ---- */
 body {
   margin: 0;
@@ -78,7 +85,48 @@ img{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   width: 100%;
+  gap: 8rem;/*gap(brecha) define el tamaño de la brecha entre fila y columna - en este caso genera dos cuadros separados*/
+  position: absolute;
+  z-index: 1;
 }
 .containerMain .item{
-  border: 1px solid;
+  /*border: 1px solid;*/
+}
+.item h1{
+  font-family: "Lora";
+  font-weight: lighter;
+  line-height: 4rem;
+  font-size: 2.6rem;
+  text-transform: capitalize;
+  color: black;
+  /*text-align: center;*/
+  
+
+}
+.item ul{
+  font-size: 16px;
+  font-family: "Lore";
+  line-height: 1.3rem;
+  margin: 4rem 0;
+}
+.item button{
+  width: 10rem;
+  height: 2.8rem;
+  background: rgb(128, 128, 238);
+  font-family: "Lora";
+  text-transform: uppercase;
+  border-radius: 50px;
+  cursor: pointer;
+  
+}
+.item:nth-of-type(2){/*La pseudo-clase :nth-of-type() de CSS selecciona uno o más elementos de un tipo dado, en función de su posición entre un grupo de hermanos.*/
+display: flex;
+justify-content: center;
+align-items: center;
+}
+/*navegador*/
+nav{
+  position: absolute;
+  top: 0;
+  width: 100%;
 }
