@@ -1,7 +1,7 @@
 # landingPage
 Proyecto landing page como aprendizaje
 
-Conociendo un poco mas acerca de fondos con particulas en JS.
+Conociendo un poco mas acerca de fondos con particulas en JS. (A traves del link no funciona)
 
 El resto es practica con HTML Y CSS.
 
