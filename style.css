@@ -96,7 +96,7 @@ img{
   font-family: "Lora";
   font-weight: lighter;
   line-height: 4rem;
-  font-size: 2.6rem;
+  font-size: 3.2rem;
   text-transform: capitalize;
   color: black;
   /*text-align: center;*/
@@ -129,4 +129,28 @@ nav{
   position: absolute;
   top: 0;
   width: 100%;
+  height: 5rem;
+  padding: .5rem;
+}
+nav .contenedor{
+display: flex;
+justify-content: space-between;
+}
+.contenedor .containerLeft{
+  display: inherit;/*inherit. heredando la propiedad*/
+  align-items: center;
+}
+.contenedor h2{
+  font-size: 18px;  
+}
+.containerLinks{
+  margin-left: 5rem;
+}
+.containerLinks a{
+  margin-left: 2rem;
+  color: white;
+  font-family: "Lora";
+  font-size: 16px;
+  text-transform: capitalize;
+  text-decoration: none;
 }
